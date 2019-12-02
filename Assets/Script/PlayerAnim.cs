@@ -31,24 +31,24 @@ public class PlayerAnim : MonoBehaviourPun
             {
                 if (Input.GetMouseButton(0) && Attacking == false && isAction == false)
                 {
-                    Sp = gameObject.GetComponent<PlayerManager>().PlayerSp;
+                    Sp = playerManager.PlayerSp;
                     Debug.Log(Sp);
-                    if(Sp >= 50)
+                    if (Sp >= 50)
                     {
                         Attacking = true;
                         isAction = true;
                         Player_ani.SetBool("IsAttack", true);
-                        playerManager.CoSp(40);
+
 
                     }
 
 
                 }
-                if (Input.GetKeyDown(KeyCode.H) )
+                if (Input.GetKeyDown(KeyCode.H))
                 {
-                   
+
                     playerManager.CoHp(10);
-                   
+
 
                 }
 
@@ -64,18 +64,25 @@ public class PlayerAnim : MonoBehaviourPun
             }
         }
     }
-        public void AttackFalse()
-        {
-            Attacking = false;
-            Player_ani.SetBool("IsAttack", false);
-         }
+    public void AttackFalse()
+    {
 
-        public void AllEnd()
-         {
-             Attacking = false;
-             Player_ani.SetBool("IsAttack", false);
-             isAction = false;
-         }
+        Player_ani.SetBool("IsAttack", false);
+    }
+
+    public void AttackCoSp()
+    {
+        playerManager.CoSp(40);
+    }
+
+
+
+    public void AllEnd()
+    {
+        Attacking = false;
+        Player_ani.SetBool("IsAttack", false);
+        isAction = false;
+    }
 
 }
 
