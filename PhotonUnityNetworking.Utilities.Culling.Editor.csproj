@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A0384BC4-E77E-D589-58A9-4B8585E7D1F4}</ProjectGuid>
+    <ProjectGuid>{2FB6915B-0E24-2059-C07D-3538770587C5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonUnityNetworking.Utilities.Culling.Editor</AssemblyName>
@@ -296,34 +296,34 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Substance.Game">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Assets/Allegorithmic/Plugins/Substance.Game.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Assets/Allegorithmic/Plugins/Substance.Game.dll</HintPath>
     </Reference>
     <Reference Include="Substance.Editor">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Assets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/Substance.Editor.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Assets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/Substance.Editor.dll</HintPath>
     </Reference>
     <Reference Include="SourceUnityLib">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Assets/Allegorithmic/Plugins/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Assets/Allegorithmic/Plugins/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -682,7 +682,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{4388648A-964E-62D0-056E-1E9028F0C4BE}</Project>
+      <Project>{BAFAF5C9-5CFC-5F63-FD67-C346A4657342}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
   </ItemGroup>

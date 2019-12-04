@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E89C0128-77FD-B15E-D383-935E4BDF7B9A}</ProjectGuid>
+    <ProjectGuid>{835DA540-A5A3-0278-7DE5-5A737ACA7A0B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -91,25 +91,25 @@
     <None Include="Assets\Allegorithmic\Plugins\EULA.txt" />
     <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
     <Reference Include="Cinemachine">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -313,22 +313,22 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Substance.Game">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Assets/Allegorithmic/Plugins/Substance.Game.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Assets/Allegorithmic/Plugins/Substance.Game.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/xaali/Documents/unity/OurGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/UnityProject/Photon_local/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -678,51 +678,51 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{49B655C5-92F2-4CB2-FCF7-E0675630B57E}</Project>
+      <Project>{3108862F-482B-4E0D-E951-D5024BCC53BA}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{33178E0C-3E85-C195-8826-15E2250BA0B2}</Project>
+      <Project>{CD0896A3-87B0-0243-1593-49CC7D13E70E}</Project>
       <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{0B7C0DFA-D277-C16E-EA99-331570217353}</Project>
+      <Project>{5770828B-AE5E-AB64-69E9-41DB8C0CD549}</Project>
       <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{617C7D6F-474F-560F-7ADE-481F0CB8FBE5}</Project>
+      <Project>{21F4905C-D3DA-62EB-D54F-F0B26182D65A}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{4388648A-964E-62D0-056E-1E9028F0C4BE}</Project>
+      <Project>{BAFAF5C9-5CFC-5F63-FD67-C346A4657342}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonWebSocket.csproj">
-      <Project>{FD43A2F2-C9A4-F738-5C9E-F32C07FB8240}</Project>
+      <Project>{165B993D-778D-4EF2-F9FA-C5290CAD9B86}</Project>
       <Name>PhotonWebSocket</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{C00CEE49-4F78-1D41-FE4B-29DACC0E9474}</Project>
+      <Project>{C9030E33-1F17-A659-0980-B01779EF9572}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{2CCDA1D5-5564-89F8-652D-C7A94183CE01}</Project>
+      <Project>{86C3823C-AB4F-6B2A-F6AE-368EA224B86C}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
-      <Project>{B1D27928-AA88-42FF-8CD6-EA11127415C0}</Project>
+      <Project>{C80BD8C6-A649-467E-A8A0-04EC7E56CFCB}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{A0384BC4-E77E-D589-58A9-4B8585E7D1F4}</Project>
+      <Project>{2FB6915B-0E24-2059-C07D-3538770587C5}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Substance.Platform.csproj">
-      <Project>{D9CDDE47-9602-A117-3CF2-219284B240B7}</Project>
+      <Project>{78E3AAC9-231D-BC70-ABE0-256107063EE3}</Project>
       <Name>Substance.Platform</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{6D18BADB-023E-8A3E-ADDE-8573D6976945}</Project>
+      <Project>{C3082A15-8593-0952-589F-9D2E281203AD}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
   </ItemGroup>
