@@ -49,19 +49,24 @@ using Photon.Pun;
     [SerializeField]
     public GameObject PlayerUiPrefab;
     public RectTransform playhp;
+    public GameObject PlayerUI;
 
     #endregion
     public void Start()
     {
+        PlayerUI.SetActive(false);
         PlayerMainCamera.SetActive(false);
         if (photonView.IsMine)
+        {
             PlayerMainCamera.SetActive(true);
+            PlayerUI.SetActive(true);
+        }
 
-        if (PlayerUiPrefab != null)
+            if (PlayerUiPrefab != null)
         {
             GameObject _uiGo = Instantiate(PlayerUiPrefab);
             _uiGo.SendMessage("SetTarget", this, SendMessageOptions.RequireReceiver);
-            playhp = GameObject.Find("PlayerUI " + photonView.Owner.NickName + photonView.ViewID).GetComponent<RectTransform>();
+            playhp = GameObject.Find("PlayerUI" + photonView.Owner.NickName + photonView.ViewID).GetComponent<RectTransform>();
         }
         else
         {

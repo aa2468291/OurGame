@@ -1220,6 +1220,7 @@ GameObject:
   - component: {fileID: 1314131068600387242}
   - component: {fileID: 1314131068600387243}
   - component: {fileID: 1314131068600387240}
+  - component: {fileID: 6825200393747051956}
   m_Layer: 0
   m_Name: player_01
   m_TagString: Untagged
@@ -1328,6 +1329,7 @@ MonoBehaviour:
   PlayerUiPrefab: {fileID: 4462835809148783474, guid: 2a399858e02d5f3478c9b1c486927418,
     type: 3}
   playhp: {fileID: 0}
+  PlayerUI: {fileID: 1314131069937004873}
 --- !u!114 &1314131068600387244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1344,7 +1346,9 @@ MonoBehaviour:
   isAction: 0
   playerManager: {fileID: 1314131068600387247}
   playerMove: {fileID: 1314131068600387246}
+  sword: {fileID: 1314131070204549443}
   Sword: {fileID: 1314131070204549440}
+  SwordTeam: {fileID: 1314131070204549440}
   Attacking: 0
   Sp: 0
 --- !u!114 &1314131068600387242
@@ -1407,9 +1411,27 @@ MonoBehaviour:
   - {fileID: 1314131068600387243}
   - {fileID: 1314131068600387242}
   - {fileID: 1314131068600387247}
+  - {fileID: 1314131068600387244}
+  - {fileID: 6825200393747051956}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &6825200393747051956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314131068600387241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizeVelocity: 1
+  m_SynchronizeAngularVelocity: 0
+  m_TeleportEnabled: 0
+  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &1314131068609864907
 GameObject:
   m_ObjectHideFlags: 0
