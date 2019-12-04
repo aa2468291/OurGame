@@ -1346,9 +1346,15 @@ MonoBehaviour:
   isAction: 0
   playerManager: {fileID: 1314131068600387247}
   playerMove: {fileID: 1314131068600387246}
+<<<<<<< HEAD
   sword: {fileID: 8743698438075735858}
   Sword: {fileID: 7945399045762590748}
   SwordTeam: {fileID: 7945399045762590748}
+=======
+  sword: {fileID: 1314131070204549443}
+  Sword: {fileID: 1314131070204549440}
+  SwordTeam: {fileID: 1314131070204549440}
+>>>>>>> 4f9f703fe15c00f046cd70c9e10746323f645f3b
   Attacking: 0
   Sp: 0
 --- !u!114 &1314131068600387242
