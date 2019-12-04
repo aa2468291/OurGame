@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - sword
+  - RedTeam
+  - RedSword
+  - RedPlayer
+  - BlueTeam
+  - BlueSword
+  - BluePlayer
   layers:
   - Default
   - TransparentFX

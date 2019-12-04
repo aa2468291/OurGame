@@ -94,7 +94,7 @@ public class PlayerUI : MonoBehaviourPun
         this.target = _target;
         targetTransform = this.target.GetComponent<Transform>();
         targetRenderer = this.target.GetComponent<Renderer>();
-        gameObject.name = "PlayerUI " + target.photonView.Owner.NickName + target.photonView.ViewID;
+        gameObject.name = "PlayerUI" + target.photonView.Owner.NickName + target.photonView.ViewID;
 
         CapsuleCollider _characterController = this.target.GetComponent<CapsuleCollider>();
 
